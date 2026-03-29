@@ -5,6 +5,10 @@ function logFirstProduct(){
   console.log(products[0]);
 }
 
+function addProduct(newProduct){
+  return products.push(newProduct);
+}
+
 function updateProductName(index, newName){
   return products[index] = newName;
 }
